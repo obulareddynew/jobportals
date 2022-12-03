@@ -1,1 +1,1 @@
-web: gunicorn app:ecart
+web: gunicorn ecart.wsgi:application
